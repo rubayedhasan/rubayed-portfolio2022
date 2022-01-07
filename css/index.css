@@ -1,0 +1,386 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.full-wapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+}
+
+.cls {
+    clear: both;
+}
+
+/*banner section part css start*/
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0 20px 30px;
+
+}
+
+.banner-content {
+    width: 50%;
+
+}
+
+.banner-title {
+    border-image-source: linear-gradient(red, blue);
+    border-image-slice: 1;
+    border-left: 4px solid;
+    border-radius: 5px;
+}
+
+.banner-title h1 {
+    font-size: 50px;
+    font-weight: 700;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    text-transform: capitalize;
+}
+
+.banner-color-text {
+    color: #e5d51d;
+}
+
+.banner-image {
+    width: 40%;
+}
+
+.banner-text {
+    padding-top: 20px;
+}
+
+.banner-text p {
+    font-size: 15px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1.5;
+}
+
+.hire-btn {
+    padding: 25px 0;
+}
+
+.hire-btn a {
+    color: #fff;
+    padding: 10px;
+    transition: 1s;
+    font-size: 20px;
+    font-style: italic;
+    border-radius: 5px;
+    text-transform: capitalize;
+    background-image: linear-gradient(to right, tomato, orange);
+}
+
+.hire-btn a:hover {
+    color: green;
+    transition: 1s;
+}
+
+.banner-image img {
+    width: 70%;
+}
+
+/*banner section part css end*/
+/*roadmap section part css start*/
+.roadmap {
+    padding: 50px 0;
+}
+
+.roadmap h2 {
+    padding: 25px 0;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.roadmap h2 span {
+    color: peachpuff;
+}
+
+.group-map {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.beginning,
+.intermideat,
+.advance {
+    width: 30%;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.beginning img,
+.intermideat img,
+.advance img {
+    width: 50%;
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+
+.beginning h5,
+.intermideat h5,
+.advance h5 {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0 0 20px 20px;
+    text-transform: capitalize;
+}
+
+.beginning p,
+.intermideat p,
+.advance p {
+    font-size: 15px;
+    line-height: 1.4;
+    padding: 0 20px 25px;
+}
+
+.beginning {
+    background-color: #EDF5F6;
+}
+
+.intermideat {
+    background-color: #FFEEEE;
+}
+
+.advance {
+    background-color: #FFF4D6;
+}
+
+/*roadmap section part css end*/
+/*working-process section part css start*/
+.working-process {
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+    background-image: url(../images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 120px;
+    background-position: left center;
+}
+
+.sample-image {
+    width: 25%;
+}
+
+.sample-image img {
+    width: 100%;
+
+}
+
+.work-detailes {
+    width: 60%;
+    padding-top: 50px;
+    ;
+}
+
+.work-detailes h2 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.work-detailes p {
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+    padding: 25px 0;
+    line-height: 1.5;
+}
+
+.work-detailes a {
+    color: #fff;
+    padding: 10px;
+    transition: 1s;
+    font-size: 18px;
+    border-radius: 5px;
+    font-style: italic;
+    background-image: linear-gradient(to right, tomato, orange);
+}
+
+.work-detailes a:hover {
+    color: green;
+    transition: 1s;
+}
+
+/*working-process section part css end*/
+/*community-set section part css start*/
+.community-set {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    padding: 50px 0;
+    background-image: url(../images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 120px;
+    background-position: right 100%;
+}
+
+.community-content {
+    width: 60%;
+    padding-top: 50px;
+}
+
+.community-content h2 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.community-content p {
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+    padding: 25px 0;
+    line-height: 1.5;
+}
+
+.community-content a {
+    color: #fff;
+    padding: 10px;
+    transition: 1s;
+    font-size: 18px;
+    border-radius: 5px;
+    font-style: italic;
+    background-image: linear-gradient(to right, tomato, orange);
+}
+
+.community-content a:hover {
+    color: green;
+    transition: 1s;
+}
+
+.group-image {
+    width: 30%;
+}
+
+.group-image img {
+    width: 100%;
+
+}
+
+/*community-set section part css end*/
+/*health-blog section part css start*/
+.health-blog {
+    padding: 30px 0;
+}
+
+.health-blog h2 {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    padding: 20px 0 30px;
+}
+
+.health-blog h2 span {
+    color: coral;
+}
+
+.blog-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blog-image {
+    width: 40%;
+}
+
+.blog-image img {
+    width: 100%;
+}
+
+.blog-content {
+    width: 50%;
+}
+
+.blog-content h4 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.blog-content h4 span {
+    color: coral;
+}
+
+.blog-content p {
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+    padding: 25px 0;
+    line-height: 1.5;
+}
+
+.blog-content a {
+    color: #fff;
+    padding: 10px;
+    transition: 1s;
+    font-size: 18px;
+    border-radius: 5px;
+    font-style: italic;
+    background-image: linear-gradient(to right, tomato, orange);
+}
+
+.blog-content a:hover {
+    color: green;
+    transition: 1s;
+}
+
+/*health-blog section part css end*/
+/*footer section part css start*/
+.footer-part {
+    padding-top: 50px;
+}
+
+.footer-content {
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #0B0D17;
+}
+
+.footer-content h5 {
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.footer-content h5 span {
+    color: lightcoral;
+}
+
+.footer-content p {
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 10px;
+}
+
+/*footer section part css end*/
